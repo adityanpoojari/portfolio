@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Aditya N Poojari - Computer Science Engineering Student specializing in AI & ML. AJIET Mangaluru." />
+  <meta name="keywords" content="Aditya N Poojari, Portfolio, AI, ML, Computer Science, AJIET, Python, Web Development" />
+  <meta name="author" content="Aditya N Poojari" />
+  <title>Aditya N Poojari | Computer Science Engineering (AI & ML)</title>
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-accent">A</span>ditya<span class="logo-dot">.</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta-mobile">
+          <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline btn-sm nav-cta-desktop">Let's Connect</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="status-indicator"></span>
+            <span>Available for Internships & Projects</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Aditya N Poojari</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Computer Science Engineering Student <span class="separator">|</span> <span class="highlight">AI & ML</span>
+          </h2>
+
+          <p class="hero-description">
+            Passionate about building intelligent AI-powered applications, machine learning systems, and robust software solutions that solve real-world problems with scalable impact.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="resume.pdf" target="_blank" class="btn btn-primary" id="resumeBtn">
+              <i class="fa-regular fa-file-pdf"></i> View Resume
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-paper-plane"></i> Contact Me
+            </a>
+            <a href="https://github.com/adityanpoojari" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-icon" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+
+          <div class="hero-quick-meta">
+            <div class="meta-item">
+              <i class="fa-solid fa-building-columns"></i>
+              <span>AJIET Mangaluru</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Class of 2028 (3rd Year)</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Karnataka, India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="visual-card">
+            <div class="card-glow"></div>
+            <div class="avatar-wrapper">
+              <div class="avatar-fallback">
+                <span class="avatar-initials">AP</span>
+              </div>
+            </div>
+            <div class="visual-info">
+              <h3 class="visual-name">Aditya N Poojari</h3>
+              <p class="visual-role">AI & ML Specialization</p>
+            </div>
+            <div class="visual-tags">
+              <span class="tech-pill"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="tech-pill"><i class="fa-solid fa-brain"></i> Machine Learning</span>
+              <span class="tech-pill"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="tech-pill"><i class="fa-solid fa-code"></i> C</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card bio-card reveal">
+            <div class="card-icon-box">
+              <i class="fa-solid fa-user-astronaut"></i>
+            </div>
+            <h3>Who I Am</h3>
+            <p>
+              I am a 3rd-year Computer Science and Engineering student at <strong>AJ Institute of Engineering and Technology (AJIET), Mangaluru</strong>, with a specialized focus on <strong>Artificial Intelligence & Machine Learning</strong>.
+            </p>
+            <p>
+              Driven by curiosity, I combine strong computational foundations in <strong>Python</strong> and <strong>C</strong> with practical experience in modern web technologies and database design. I enjoy turning complex data and algorithmic ideas into intuitive, practical AI-assisted products.
+            </p>
+            <div class="bio-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Problem Solver & Algorithmic Thinker</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Hands-on with AI Roadmaps & Career Tools</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Continuous Learner & Collaborative Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card education-card reveal delay-1">
+            <div class="card-icon-box">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-badge"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">Sep 2024 – Aug 2028</span>
+                  <h4 class="timeline-degree">Bachelor of Engineering (B.E.)</h4>
+                  <p class="timeline-field">Computer Science Engineering (AI & ML)</p>
+                  <p class="timeline-institute">
+                    <i class="fa-solid fa-location-dot"></i> A J Institute of Engineering & Technology (AJIET), Mangaluru
+                  </p>
+                  <div class="timeline-tags">
+                    <span>AI & ML Specialization</span>
+                    <span>Algorithms</span>
+                    <span>Data Structures</span>
+                    <span>Database Systems</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="academic-note">
+              <i class="fa-solid fa-lightbulb"></i>
+              <div>
+                <strong>Focus Areas:</strong> Deep Learning foundations, Natural Language Processing, intelligent agent pipelines, and full-stack software development.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Expertise</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            A solid technical foundation combining core programming languages, modern web front-end tools, and relational database systems.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Languages -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon language-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <span class="category-count">2 Core Languages</span>
+              </div>
+            </div>
+            <p class="category-desc">
+              Core languages used for algorithm design, AI/ML model scripts, problem solving, and system logic.
+            </p>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-brands fa-python"></i>
+                <div class="skill-tag-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level">Primary / AI & ML</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-c"></i>
+                <div class="skill-tag-info">
+                  <span class="skill-name">C</span>
+                  <span class="skill-level">Systems & Data Structures</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web -->
+          <div class="skill-category-card reveal delay-1">
+            <div class="category-header">
+              <div class="category-icon web-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Web Technologies</h3>
+                <span class="category-count">Front-End Foundations</span>
+              </div>
+            </div>
+            <p class="category-desc">
+              Building responsive, semantic, and clean user interfaces for web platforms and project dashboards.
+            </p>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-brands fa-html5"></i>
+                <div class="skill-tag-info">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-level">Semantic Structure</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-brands fa-css3-alt"></i>
+                <div class="skill-tag-info">
+                  <span class="skill-name">CSS3</span>
+                  <span class="skill-level">Responsive & Modern Layouts</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Databases -->
+          <div class="skill-category-card reveal delay-2">
+            <div class="category-header">
+              <div class="category-icon db-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Databases & Systems</h3>
+                <span class="category-count">Data Management</span>
+              </div>
+            </div>
+            <p class="category-desc">
+              Structuring data models, query optimization, entity relationships, and relational database systems.
+            </p>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-solid fa-server"></i>
+                <div class="skill-tag-info">
+                  <span class="skill-name">MySQL</span>
+                  <span class="skill-level">Relational Database</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-cubes-stacked"></i>
+                <div class="skill-tag-info">
+                  <span class="skill-name">DBMS</span>
+                  <span class="skill-level">Schema & Query Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Applied projects demonstrating artificial intelligence, interactive platforms, and developer utility.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: CareerAI -->
+          <article class="project-card reveal">
+            <div class="project-banner">
+              <div class="project-banner-content">
+                <div class="project-icon-badge">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <span class="project-type-badge">Featured AI App</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <h3 class="project-title">CareerAI</h3>
+                <a href="https://github.com/adityanpoojari/CareerAI" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="CareerAI GitHub Repository">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <p class="project-description">
+                An all-in-one AI-powered career and interview preparation platform. Equips job seekers and students with interactive coding practice, simulated AI interview sessions, analytics dashboard, and intelligent resume/profile evaluation.
+              </p>
+
+              <div class="project-features">
+                <span class="feature-tag"><i class="fa-solid fa-terminal"></i> Coding Practice</span>
+                <span class="feature-tag"><i class="fa-solid fa-comments"></i> Interview Practice</span>
+                <span class="feature-tag"><i class="fa-solid fa-chart-line"></i> Dashboard</span>
+                <span class="feature-tag"><i class="fa-solid fa-id-card"></i> Resume & Profile</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="badge">Python</span>
+                <span class="badge">AI/ML</span>
+                <span class="badge">Career Tech</span>
+                <span class="badge">Full Stack</span>
+                <span class="badge">MySQL</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/adityanpoojari/CareerAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm btn-full">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: PathForgeAI -->
+          <article class="project-card reveal delay-1">
+            <div class="project-banner project-banner-alt">
+              <div class="project-banner-content">
+                <div class="project-icon-badge">
+                  <i class="fa-solid fa-route"></i>
+                </div>
+                <span class="project-type-badge">AI Roadmap Generator</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <h3 class="project-title">PathForgeAI</h3>
+                <a href="https://github.com/adityanpoojari" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="PathForgeAI GitHub Profile">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <p class="project-description">
+                An intelligent learning path generator that transforms any tech skill or career goal into a structured, step-by-step personalized roadmap. Curates milestones, learning resources, and progress tracking dynamically.
+              </p>
+
+              <div class="project-features">
+                <span class="feature-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> AI Roadmaps</span>
+                <span class="feature-tag"><i class="fa-solid fa-compass"></i> Skill Pathways</span>
+                <span class="feature-tag"><i class="fa-solid fa-list-check"></i> Milestone Tracking</span>
+                <span class="feature-tag"><i class="fa-solid fa-graduation-cap"></i> Personalized Learning</span>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="badge">AI / ML</span>
+                <span class="badge">Python</span>
+                <span class="badge">Generative AI</span>
+                <span class="badge">EdTech</span>
+                <span class="badge">Roadmap Engine</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/adityanpoojari" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm btn-full">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages Known Section -->
+    <section class="section languages-section" id="languages">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Communication</span>
+          <h2 class="section-title">Languages Known</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Multilingual communication skills facilitating smooth collaboration in diverse team environments.
+          </p>
+        </div>
+
+        <div class="languages-wrapper reveal">
+          <div class="language-card">
+            <div class="lang-icon-circle">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="lang-details">
+              <h4 class="lang-name">English</h4>
+              <span class="lang-proficiency">Professional Proficiency</span>
+            </div>
+          </div>
+
+          <div class="language-card">
+            <div class="lang-icon-circle">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <div class="lang-details">
+              <h4 class="lang-name">Kannada</h4>
+              <span class="lang-proficiency">Native / Fluent</span>
+            </div>
+          </div>
+
+          <div class="language-card">
+            <div class="lang-icon-circle">
+              <i class="fa-solid fa-comment-dots"></i>
+            </div>
+            <div class="lang-details">
+              <h4 class="lang-name">Malayalam</h4>
+              <span class="lang-proficiency">Spoken & Conversational</span>
+            </div>
+          </div>
+
+          <div class="language-card">
+            <div class="lang-icon-circle">
+              <i class="fa-solid fa-message"></i>
+            </div>
+            <div class="lang-details">
+              <h4 class="lang-name">Hindi</h4>
+              <span class="lang-proficiency">Conversational</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Get in Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Have an internship opportunity, project collaboration, or question? Feel free to reach out directly or send a message below.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info reveal">
+            <h3 class="contact-info-title">Let's talk about building the future with AI</h3>
+            <p class="contact-info-desc">
+              I'm actively looking for internship roles, open-source projects, and collaborative technical challenges.
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:adityanpoojari9@gmail.com" class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">adityanpoojari9@gmail.com</span>
+                </div>
+                <button type="button" class="copy-btn" data-copy="adityanpoojari9@gmail.com" title="Copy Email" aria-label="Copy Email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </a>
+
+              <a href="tel:+919480950454" class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="contact-label">Phone</span>
+                  <span class="contact-value">+91 94809 50454</span>
+                </div>
+                <button type="button" class="copy-btn" data-copy="+919480950454" title="Copy Phone Number" aria-label="Copy Phone Number">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </a>
+
+              <a href="https://linkedin.com/in/aditya-n-poojari" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="contact-label">LinkedIn</span>
+                  <span class="contact-value">linkedin.com/in/aditya-n-poojari</span>
+                </div>
+                <div class="external-icon">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+              </a>
+
+              <a href="https://github.com/adityanpoojari" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="contact-label">GitHub</span>
+                  <span class="contact-value">github.com/adityanpoojari</span>
+                </div>
+                <div class="external-icon">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-container reveal delay-1">
+            <form class="contact-form" id="contactForm">
+              <h3 class="form-title">Send a Quick Message</h3>
+
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Doe" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. john@example.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Internship Opportunity / Collaboration" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                  <textarea id="message" name="message" rows="4" class="form-input form-textarea" placeholder="Hello Aditya, I'd like to discuss..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full submit-btn" id="submitBtn">
+                <span class="btn-text"><i class="fa-regular fa-paper-plane"></i> Send Message</span>
+                <span class="btn-loading d-none"><i class="fa-solid fa-spinner fa-spin"></i> Sending...</span>
+              </button>
+
+              <div class="form-feedback" id="formFeedback" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-accent">A</span>ditya<span class="logo-dot">.</span>
+          </a>
+          <p class="footer-tagline">
+            Computer Science Engineering Student (AI & ML) at AJIET Mangaluru.
+          </p>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/adityanpoojari" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/aditya-n-poojari" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:adityanpoojari9@gmail.com" class="social-icon-btn" aria-label="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a href="tel:+919480950454" class="social-icon-btn" aria-label="Phone">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="currentYear">2026</span> Aditya N Poojari. All rights reserved.
+        </p>
+        <p class="footer-built">
+          Designed with clean simplicity &bull; Built with HTML, CSS & JavaScript
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
